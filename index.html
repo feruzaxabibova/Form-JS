@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form JS</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1 class="text-center my-5 text-white">SOCIAL MEDIA MARKETING PLATFORM</h1>
+
+      <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">@</span>
+            <input type="text" class="form-control name-js" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" required>
+          </div>
+          
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2" required>
+            <span class="input-group-text" id="basic-addon2">@example.com</span>
+          </div>
+          
+          <label for="basic-url" class="form-label">Your vanity URL</label>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon3">https://example.com/users/</span>
+            <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" required>
+          </div>
+          
+          <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <input type="number" class="form-control money" aria-label="Ahmount (to the nearest dollar)" required>
+            <span class="input-group-text">.00</span>
+          </div>
+                   
+          <div class="input-group">
+            <span class="input-group-text">With textarea</span>
+            <textarea class="form-control" aria-label="With textarea"></textarea>
+          </div>
+          <div class="col-12 d-flex align-items-center">
+            <button type="button" class="btn btn-primary mt-3 px-5 send">Send</button>
+            <p class="p-2 mt-3 mx-2 mb-0 rounded-1 text-white result-js"></p>
+          </div>
+          
+    </div>
+    
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
